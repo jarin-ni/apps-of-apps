@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: prod-appsof-apps
+  name: prod-appsof-app
   namespace: argocd
 spec:
-  project: apps-of-app
+  project: apps-of-apps
   source:
     repoURL: https://github.com/jarin-ni/apps-of-apps
     targetRevision: main
