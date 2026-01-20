@@ -4,7 +4,7 @@ metadata:
   name: prod-appsof-apps
   namespace: argocd
 spec:
-  project: apps-of-app
+  project: apps-of-apps
   source:
     repoURL: https://github.com/jarin-ni/apps-of-apps
     targetRevision: main
