@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/jarin-ni/apps-of-apps
     targetRevision: main
-    path: dev/manifests
+    path: staging/manifests
   destination:
     server: https://kubernetes.default.svc
     namespace: staging
